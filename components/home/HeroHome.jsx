@@ -99,7 +99,7 @@ const HeroHome = () => {
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="px-6 py-3 border-2 border-[#584910] text-[#584910] font-bold rounded-lg text-base"
+                            className="px-6 py-3 border-2 border-[#584910] text-white font-bold rounded-lg text-base"
                         >
                             Contact Our Team
                         </motion.button>
@@ -120,7 +120,7 @@ const HeroHome = () => {
                         { value: "24/7", label: "Assistance Available" }
                     ].map((stat, index) => (
                         <div key={index} className="text-center">
-                            <div className="text-2xl md:text-3xl font-bold text-[#584910]">{stat.value}</div>
+                            <div className="text-2xl md:text-3xl font-bold text-white">{stat.value}</div>
                             <div className="text-sm text-blue-200">{stat.label}</div>
                         </div>
                     ))}
