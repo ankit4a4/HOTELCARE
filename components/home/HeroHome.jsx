@@ -95,7 +95,7 @@ const HeroHome = () => {
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             className="px-6 py-3 bg-[#584910] text-white font-bold rounded-lg text-base shadow-md"
-                            onClick={() => router.push('/yacht-services')}
+                            onClick={() => router.push('/hotelcare')}
                         >
                             Explore HotelCare Services
                         </motion.button>
