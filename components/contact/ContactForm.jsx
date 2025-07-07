@@ -189,12 +189,12 @@ const ContactForm = () => {
                             <div className="space-y-2">
                                 <div className="flex items-center">
                                     <FaPhone className="text-navy mr-2" />
-                                    <span className="text-gray-800">+356 2123 4568</span>
+                                    <span className="text-gray-800">+39 3663078074</span>
                                 </div>
                                 <div className="flex items-center">
                                     <FaEnvelope className="text-navy mr-2" />
                                     <span className="text-gray-800">
-                                        hotelcare@emmeconstruction.com
+                                        service@hotelcarebyemme.com
                                     </span>
                                 </div>
                             </div>
@@ -230,11 +230,11 @@ const ContactForm = () => {
                             <div className="flex items-center mb-4">
                                 <FaClock className="text-2xl text-red-500 mr-3" />
                                 <h3 className="text-xl font-bold font-quicksand">
-                                    Emergency Services
+                                    accounting services
                                 </h3>
                             </div>
                             <p className="text-gray-300 mb-4">
-                                24/7 emergency support for urgent repairs and maintenance.
+                                For account related query
                             </p>
                             <div className="space-y-2">
                                 <div className="flex items-center">
