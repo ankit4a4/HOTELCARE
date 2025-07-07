@@ -140,7 +140,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <FaEnvelope className="text-[#584910]" />
-                <span>info@emmeconstruction.com</span>
+                <span>emme.construction.ltd@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <FaMapMarkerAlt className="text-[#584910]" />

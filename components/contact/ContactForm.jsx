@@ -217,13 +217,12 @@ const ContactForm = () => {
                                 </div>
                                 <div className="flex items-center">
                                     <FaEnvelope className="text-gold mr-2" />
-                                    <span>yacht@emmeconstruction.com</span>
+                                    <span>emme.construction.ltd@gmail.com</span>
                                 </div>
                             </div>
                         </div>
 
                         {/* HotelCare Contact */}
-
 
                         {/* Emergency Contact */}
                         <div className="bg-gray-800 text-white p-6 shadow-lg">
@@ -241,9 +240,10 @@ const ContactForm = () => {
                                     <FaPhone className="text-red-500 mr-2" />
                                     <span>+39 3663078074</span>
                                 </div>
-                                <p className="text-sm text-gray-400">
-                                    Emergency line available 24/7
-                                </p>
+                                <div className="flex items-center">
+                                    <FaEnvelope className="text-gold mr-2" />
+                                    <span>administration@hotelcarebyemme.com</span>
+                                </div>
                             </div>
                         </div>
                     </motion.div>
