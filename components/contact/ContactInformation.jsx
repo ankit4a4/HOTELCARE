@@ -16,7 +16,7 @@ const ContactInformation = () => {
     {
       icon: <FaEnvelope />,
       title: "Email",
-      details: "info@emmeconstruction.com",
+      details: "emme.construction.ltd@gmail.com",
       description: "Send us your inquiry",
     },
     {
