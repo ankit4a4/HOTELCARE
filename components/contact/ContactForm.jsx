@@ -234,7 +234,7 @@ const ContactForm = () => {
                                 </h3>
                             </div>
                             <p className="text-gray-300 mb-4">
-                                For account related query
+                                For account related query.
                             </p>
                             <div className="space-y-2">
                                 <div className="flex items-center">
