@@ -1,23 +1,25 @@
-import React from "react";
 import { motion } from "framer-motion";
+import img from "../../assets/home/luxury-yacht-3430348_1280.jpg"
+import img2 from "../../assets/home/massage-2359592_1280.jpg"
+import img3 from "../../assets/home/relax-2085676_1280.jpg"
 
 const projects = [
     {
         title: "Yacht Interior Overhaul",
         description: "A luxurious yacht interior transformation using bespoke materials and high-end finishes.",
-        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+        image: img.src,
         tags: ["Luxury", "Marine", "Interior Design"]
     },
     {
         title: "Hotel Spa Renovation",
         description: "Complete spa upgrade for a 5-star hotel, including custom lighting and premium tiling.",
-        image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+        image: img2.src,
         tags: ["Wellness", "Hotel", "Renovation"]
     },
     {
         title: "Villa Pool Refurbishment",
         description: "Modern pool redesign for a private villa with aesthetic lighting and leak-proof structure.",
-        image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+        image: img3.src,
         tags: ["Outdoor", "Luxury", "Swimming Pool"]
     },
 ];
@@ -92,12 +94,7 @@ const ProjectsSection = () => {
                                 <h3 className="text-xl font-semibold text-[#584910] mb-2">
                                     {project.title}
                                 </h3>
-                                <button className="mt-4 text-sm font-medium text-[#584910] hover:text-[#b8a86e] transition-colors flex items-center">
-                                    View Project
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                    </svg>
-                                </button>
+                              
                             </div>
                         </motion.div>
                     ))}

@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import Slider from "react-slick";
 import { FaQuoteLeft, FaStar, FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -79,9 +80,8 @@ const TestimonialsSlider = () => {
     ),
     customPaging: (i) => (
       <button
-        className={`w-3 h-3 rounded-full transition-all duration-300 ${
-          i === currentSlide ? "bg-[#584910] w-6" : "bg-[#584910]/30"
-        }`}
+        className={`w-3 h-3 rounded-full transition-all duration-300 ${i === currentSlide ? "bg-[#584910] w-6" : "bg-[#584910]/30"
+          }`}
         aria-label={`Go to testimonial ${i + 1}`}
       />
     ),

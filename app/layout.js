@@ -1,3 +1,4 @@
+"use Client";
 import "./globals.css";
 import { Montserrat, Quicksand } from "next/font/google";
 import Navigation from "../components/Navigation";

@@ -14,11 +14,10 @@ const Navigation = () => {
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/#" },
-    { name: "Yacht Services", href: "/#" },
-    { name: "HotelCare", href: "/#" },
-    { name: "Contact", href: "/#" },
-    { name: "Careers", href: "/#" },
+    { name: "About", href: "/about" },
+    { name: "Yacht Services", href: "/yacht-services" },
+    { name: "HotelCare", href: "/hotelcare" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
