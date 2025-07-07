@@ -2,8 +2,11 @@
 import { motion } from "framer-motion";
 import img from "../../assets/home/hotel-1749602_1280.jpg";
 import { FaInfoCircle } from "react-icons/fa";
+import { useRouter } from "next/navigation";
 
 const ContactCTASection = () => {
+
+    const router = useRouter();
     return (
         <section id="contact" className="relative py-20 px-4 overflow-hidden">
             {/* Decorative elements */}
@@ -48,6 +51,7 @@ const ContactCTASection = () => {
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="px-7 py-3 bg-[#584910] text-white rounded-full font-medium hover:bg-[#b8a86e] transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2 text-sm"
+                                onClick={() => router.push("/contact")}
                             >
                                 Get in Touch
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
