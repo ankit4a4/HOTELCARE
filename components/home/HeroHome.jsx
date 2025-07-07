@@ -4,10 +4,12 @@ import { FaConciergeBell } from 'react-icons/fa';
 import img1 from "../../assets/home/HotelCare.jpg";
 import img2 from "../../assets/home/HotelCare.jpg";
 import img3 from "../../assets/home/HotelCare.jpg";
+import { useRouter } from 'next/navigation';
 
 const HeroHome = () => {
     const backgroundImages = [img1.src, img2.src, img3.src];
     const [currentImage, setCurrentImage] = useState(0);
+    const router = useRouter();
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -93,6 +95,7 @@ const HeroHome = () => {
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             className="px-6 py-3 bg-[#584910] text-white font-bold rounded-lg text-base shadow-md"
+                            onClick={() => router.push('/yacht-services')}
                         >
                             Explore HotelCare Services
                         </motion.button>
@@ -100,8 +103,9 @@ const HeroHome = () => {
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             className="px-6 py-3 border-2 border-[#584910] text-white font-bold rounded-lg text-base"
+                            onClick={() => router.push('/contact')}
                         >
-                            Contact Our Team
+                            Contact Us
                         </motion.button>
                     </motion.div>
                 </motion.div>
