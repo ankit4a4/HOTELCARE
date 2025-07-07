@@ -15,8 +15,8 @@ const ContactCTASection = () => {
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
                 {/* Left Content */}
                 <motion.div
-                    initial={{ opacity: 0, x: -30 }}
-                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, y: -30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     viewport={{ once: true }}
                     className="space-y-6"
@@ -61,8 +61,8 @@ const ContactCTASection = () => {
                 {/* Right Image */}
                 <motion.div
                     className="w-full h-80 md:h-96 lg:h-[400px] rounded-3xl overflow-hidden shadow-2xl relative"
-                    initial={{ opacity: 0, x: 30 }}
-                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                     viewport={{ once: true }}
                 >

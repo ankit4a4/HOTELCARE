@@ -10,8 +10,8 @@ const YachtExpertiseSection = () => {
         {/* Left Image */}
         <motion.div
           className="rounded-3xl overflow-hidden shadow-xl"
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -40 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
@@ -24,8 +24,8 @@ const YachtExpertiseSection = () => {
 
         {/* Right Content */}
         <motion.div
-          initial={{ opacity: 0, x: 40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
           className="space-y-6"
