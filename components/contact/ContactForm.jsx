@@ -230,7 +230,7 @@ const ContactForm = () => {
                             <div className="flex items-center mb-4">
                                 <FaClock className="text-2xl text-red-500 mr-3" />
                                 <h3 className="text-xl font-bold font-quicksand">
-                                    accounting services
+                                    Accounting services
                                 </h3>
                             </div>
                             <p className="text-gray-300 mb-4">
