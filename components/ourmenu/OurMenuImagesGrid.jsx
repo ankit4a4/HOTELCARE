@@ -11,7 +11,7 @@ const OurMenuImagesGrid = () => {
     return (
         <div className="px-4 py-8 md:px-8 lg:px-12 max-w-7xl mx-auto">
             {/* Gallery Title - Optional */}
-            <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Our Menu Highlights</h2>
+            <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Our Work Highlights</h2>
 
             {/* Image Grid Container */}
             <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">

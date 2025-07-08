@@ -4,33 +4,33 @@ import { FaTools, FaFan, FaBolt, FaWater, FaLightbulb } from "react-icons/fa";
 const hotelServices = [
     {
         icon: <FaTools className="text-3xl" />,
-        title: "Dove ce scritto GENERAL MAINTENANCE vorrei mettessi questo ",
+        title: "General Maintenance",
         description: "We provide routine maintenance across the entire hotel, quickly resolving wear-and-tear issues in guest rooms, common areas, and service zones. Our fast-response team ensures everything stays fully functional and aligned with the highest five-star hospitality standards."
     },
     {
         icon: <FaBolt className="text-3xl" />,
-        title: "ELECTRICAL SYSTEMS ",
+        title: "Electrical Systems",
         description: "Our certified technicians handle the maintenance and upgrading of the entire electrical infrastructure, including lighting, distribution panels, sockets, emergency systems, and automation wiring. We operate discreetly and efficiently to prevent disruptions and ensure uninterrupted service for both guests and staff."
     },
     {
         icon: <FaFan className="text-3xl" />,
-        title: "HVAC E AIR CONDITIONING ",
+        title: "HVAC & Air Conditioning",
         description: "We design and install underfloor and wall-mounted heating systems, as well as all types of air conditioning systems—both ducted and single-function units—ensuring an ideal indoor climate in lobbies, guest rooms, and common areas."
     },
     {
         icon: <FaLightbulb className="text-3xl" />,
-        title: "ROOM AUTOMATION",
+        title: "Room Automation",
         description: "We design, supply, and install smart automation systems for any hotel function, ensuring functionality and energy efficiency in guest rooms, common areas, and all zones where automation is required. Our solutions enhance the guest experience while optimizing energy consumption and integrating seamlessly with the hotel’s design."
     },
     {
         icon: <FaWater className="text-3xl" />,
-        title: "PLUMBING ",
+        title: "Plumbing & Water Systems",
         description: "We design and repair plumbing systems made from any type of material, and we plan and fully renovate all types of bathrooms or water-dependent facilities. We also design and install water-saving systems throughout the entire property."
     },
     {
         icon: <FaTools className="text-3xl" />,
-        title: "SPA & POOL",
-        description: "We design and install swimming pools along with their complete systems, and provide various types of pool covers. We also design and install pool water heating systems. As authorized resellers, we supply and install both indoor and outdoor cryotherapy tubs in a range of models.  We offer specialized maintenance for pools, saunas, steam rooms, and wellness centers, covering pumps, filtration systems, water treatment, and temperature control.Our services ensure safety, hygiene, and the luxurious comfort expected in wellness areas."
+        title: "Spa & Pool",
+        description: "We design and install swimming pools along with their complete systems, and provide various types of pool covers. We also design and install pool water heating systems. As authorized resellers, we supply and install both indoor and outdoor cryotherapy tubs in a range of models. We offer specialized maintenance for pools, saunas, steam rooms, and wellness centers, covering pumps, filtration systems, water treatment, and temperature control. Our services ensure safety, hygiene, and the luxurious comfort expected in wellness areas."
     },
 ];
 

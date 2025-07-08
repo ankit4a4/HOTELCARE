@@ -25,7 +25,7 @@ const OurMenuHero = () => {
                             ease: [0.6, -0.05, 0.01, 0.99]
                         }}
                     >
-                        Our Menu
+                        Our Work
                     </motion.h1>
 
                     <motion.p
