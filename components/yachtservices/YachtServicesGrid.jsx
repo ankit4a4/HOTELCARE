@@ -45,9 +45,9 @@ const services = [
 
 const YachtServicesGrid = () => {
     return (
-        <section 
-        style={{ backgroundImage: `url(${bg.src})` }}
-        className="bg-white md:py-16 py-6 px-4">
+        <section
+            style={{ backgroundImage: `url(${bg.src})` }}
+            className="bg-white md:py-16 py-6 px-4">
             <div className="max-w-7xl mx-auto">
                 {/* Heading */}
                 <motion.div

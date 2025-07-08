@@ -17,6 +17,7 @@ const Navigation = () => {
     { name: "About", href: "/about" },
     { name: "Yacht Services", href: "/yacht-services" },
     { name: "HotelCare", href: "/hotelcare" },
+    { name: "Our Menu", href: "/our-menu" },
     { name: "Contact", href: "/contact" },
   ];
 
