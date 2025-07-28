@@ -99,21 +99,19 @@ const Navigation = () => {
         )}
       </AnimatePresence>
 
-
-
-        <a
-                href="https://wa.me/393663078074"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="fixed bottom-6 left-6 z-50 flex items-center gap-2 shadow-xl hover:scale-105 transition-transform duration-300"
-            >
-                <div className="bg-[#25D366] p-3 rounded-full flex items-center justify-center">
-                    <FaWhatsapp size={24} color="#fff" />
-                </div>
-                <div className="bg-white text-[#25D366] font-medium px-4 py-2 rounded-full text-sm shadow">
-                    Can we help you?
-                </div>
-            </a>
+      <a
+        href="https://wa.me/393663078074"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 left-6 z-50 flex items-center gap-2 shadow-xl hover:scale-105 transition-transform duration-300"
+      >
+        <div className="bg-[#25D366] p-3 rounded-full flex items-center justify-center">
+          <FaWhatsapp size={24} color="#fff" />
+        </div>
+        <div className="bg-white text-[#25D366] font-medium px-4 py-2 rounded-full text-sm shadow">
+          Can we help you?
+        </div>
+      </a>
     </nav>
   );
 };

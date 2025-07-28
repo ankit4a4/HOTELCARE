@@ -189,12 +189,12 @@ const ContactForm = () => {
                             <div className="space-y-2">
                                 <div className="flex items-center">
                                     <FaPhone className="text-navy mr-2" />
-                                    <span className="text-gray-800">+39 3663078074</span>
+                                    <span className="text-gray-800">+35679657869</span>
                                 </div>
                                 <div className="flex items-center">
                                     <FaEnvelope className="text-navy mr-2" />
                                     <span className="text-gray-800">
-                                        service@hotelcarebyemme.com
+                                        service.hotelcare@gmail.com
                                     </span>
                                 </div>
                             </div>
@@ -213,7 +213,7 @@ const ContactForm = () => {
                             <div className="space-y-2">
                                 <div className="flex items-center">
                                     <FaPhone className="text-gold mr-2" />
-                                    <span>+39 3663078074</span>
+                                    <span>+35679657869</span>
                                 </div>
                                 <div className="flex items-center">
                                     <FaEnvelope className="text-gold mr-2" />
@@ -238,11 +238,11 @@ const ContactForm = () => {
                             <div className="space-y-2">
                                 <div className="flex items-center">
                                     <FaPhone className="text-red-500 mr-2" />
-                                    <span>+39 3663078074</span>
+                                    <span>+35679657869</span>
                                 </div>
                                 <div className="flex items-center">
                                     <FaEnvelope className="text-gold mr-2" />
-                                    <span>administration@hotelcarebyemme.com</span>
+                                    <span>emme.construction.ltd@gmail.com</span>
                                 </div>
                             </div>
                         </div>

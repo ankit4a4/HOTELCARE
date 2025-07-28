@@ -10,7 +10,7 @@ const ContactInformation = () => {
     {
       icon: <FaPhone />,
       title: "Phone",
-      details: "+39 3663078074",
+      details: "+35679657869",
       description: "Call us for immediate assistance",
     },
     {
